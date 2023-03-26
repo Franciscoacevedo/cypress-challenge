@@ -10,7 +10,7 @@ describe('Input test suit', () => {
         input.url()
     });
 
-    it('Should be able to intrduce a positive value', () => {
+    it('Should be able to introduce a positive value', () => {
         input.setNumber(35)
     });
 
@@ -19,7 +19,7 @@ describe('Input test suit', () => {
         input.setNumber(-35)
     });
 
-    it('Should be able to introduce any test', () => {
+    it('Should not be able to introduce any text', () => {
         input.setText('saludos')
     });
 });
