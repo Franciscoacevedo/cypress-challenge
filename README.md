@@ -1,23 +1,12 @@
 # cypress-challenge
 
-Test automation challenge 
+Test automation challenge in cypress v12
 
-Here the following:
+Here the following to run cypress:
 
-**Clone the project locally** 
+## Steps after cloning the project** 
 
-git clone https://github.com/carlos-silverio/cypress-challenge.git
+- [Inside the poject directory run next command "npm install" to install all the projects dependecies]
+- [Then run cypress with next command "./node_modules/.bin/cypress open"] 
 
-**Downlownd dependecies by running the next command in your terminal**
-
-npm install
-
-**Running test sets**
-
-In the terminal run the following:
-
-1.run next command ./node_modules/.bin/cypress open
-2.select E2E Testing from the Cypress App
-3.select the browser of your choice then hit Start E2E button 
-4.choose any of the test displayed
 
