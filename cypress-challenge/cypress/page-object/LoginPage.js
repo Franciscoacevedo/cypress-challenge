@@ -2,6 +2,7 @@ class Login{
 
     url(){
         cy.visit('https://the-internet.herokuapp.com/login',{ timeout: 30000 })
+        cy.url().should('include', 'login')
     }
 
     setScreenSize(size){

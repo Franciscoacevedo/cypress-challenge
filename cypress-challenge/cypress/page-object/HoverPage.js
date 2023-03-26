@@ -2,6 +2,7 @@ class Hover{
     url(){
         
         cy.visit('https://the-internet.herokuapp.com/hovers')
+        cy.url().should('include', 'hovers')
     }
 
     mouseOver(){

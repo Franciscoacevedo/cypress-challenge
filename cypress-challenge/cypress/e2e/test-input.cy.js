@@ -1,11 +1,25 @@
 /// <reference types= "cypress" />
 
+import Input from "../page-object/InputPage";
+
 describe('Input test suit', () => {
+
+    const input = new Input();
+        
     beforeEach(() => {
-        cy.visit('https://the-internet.herokuapp.com/inputs ')
+        input.url()
     });
 
-    it('Introducing', () => {
-        cy.get("[type='number']", {timeout:6000}).type('35');
+    it('Should be able to intrduce a positive value', () => {
+        input.setNumber(35)
+    });
+
+    
+    it('Should be able to introduce a negative value', () => {
+        input.setNumber(-35)
+    });
+
+    it('Should be able to introduce any test', () => {
+        input.setText('saludos')
     });
 });
