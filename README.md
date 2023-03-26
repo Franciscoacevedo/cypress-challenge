@@ -2,7 +2,7 @@
 
 Test automation challenge in cypress v12
 
-Here the following to run cypress:
+Here the following to run this cypress project:
 
 ## Steps after cloning the project** 
 
