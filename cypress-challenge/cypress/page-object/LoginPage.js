@@ -4,6 +4,10 @@ class Login{
         cy.visit('https://the-internet.herokuapp.com/login',{ timeout: 30000 })
     }
 
+    setScreenSize(size){
+        cy.viewport(size)
+    }
+
     setUserName(username){
         cy.get('#username').type(username)
     }

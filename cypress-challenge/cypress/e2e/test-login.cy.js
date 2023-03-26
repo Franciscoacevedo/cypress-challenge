@@ -13,6 +13,7 @@ describe('Test suit in order to test login page', () => {
     });
 
     beforeEach(() => {
+        lgn.setScreenSize('samsung-note9')
         lgn.url();
     });
     
