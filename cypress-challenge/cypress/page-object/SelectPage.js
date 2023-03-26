@@ -1,7 +1,7 @@
 class Select{
     
     url(){
-        cy.visit('https://the-internet.herokuapp.com/dropdown',{ timeout: 30000 })
+        cy.visit('https://the-internet.herokuapp.com/dropdown')
         cy.url().should('include', 'dropdown')
     }
 

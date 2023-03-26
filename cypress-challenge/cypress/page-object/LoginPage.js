@@ -1,7 +1,7 @@
 class Login{
 
     url(){
-        cy.visit('https://the-internet.herokuapp.com/login',{ timeout: 30000 })
+        cy.visit('https://the-internet.herokuapp.com/login')
         cy.url().should('include', 'login')
     }
 
