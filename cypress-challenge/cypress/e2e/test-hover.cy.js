@@ -9,7 +9,7 @@ describe('Test suit for hovering', () => {
         hover.url()
     });
 
-    it('HappyPath', () => {
+    it('Should be shown hidden elements', () => {
         hover.mouseOver()
         hover.hoverStatus()
     });
