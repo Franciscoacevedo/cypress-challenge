@@ -1,5 +1,4 @@
 class Hover{
-
     url(){
         cy.visit('https://the-internet.herokuapp.com/hovers')
     }
